@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<title>WebGLHelloAPI</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<script type="text/javascript" src="trCube
+.js">
+</script>
+
+
+</head>
+
+<body onload="main()">
+    <canvas id="helloapicanvas" style="border: none;" width="600" height="600"></canvas>
+    <br>
+    <button onclick="animPause()">Animation Pause</button>
+	<br>
+	<button onclick="trXinc()">Translate X + 0.1</button>
+    <button onclick="trYinc()">Translate Y + 0.1</button>
+    <button onclick="trZinc()">Translate Z + 0.1</button>
+    <br>
+    <button onclick="trXincmoon1()">Translate moon1 X + 0.1</button>
+    <button onclick="trXincmoon2()">Translate moon2 X + 0.1</button>
+    <button onclick="trXincmoon3()">Translate moon3 X + 0.1</button>
+    <button onclick="trXincmoon4()">Translate moon4 X + 0.1</button>
+    <button onclick="trXincmoon5()">Translate moon5 X + 0.1</button>
+    <button onclick="trXincmoon6()">Translate moon6 X + 0.1</button>
+    <button onclick="trXincmoon7()">Translate moon7 X + 0.1</button>
+    <button onclick="trXincmoon8()">Translate moon8 X + 0.1</button>
+    <br>
+    <button onclick="trYincmoon1()">Translate moon1 Y + 0.1</button>
+    <button onclick="trYincmoon2()">Translate moon2 Y + 0.1</button>
+    <button onclick="trYincmoon3()">Translate moon3 Y + 0.1</button>
+    <button onclick="trYincmoon4()">Translate moon4 Y + 0.1</button>
+    <button onclick="trYincmoon5()">Translate moon5 Y + 0.1</button>
+    <button onclick="trYincmoon6()">Translate moon6 Y + 0.1</button>
+    <button onclick="trYincmoon7()">Translate moon7 Y + 0.1</button>
+    <button onclick="trYincmoon8()">Translate moon8 Y + 0.1</button>
+    <br>
+    <button onclick="trZincmoon1()">Translate moon1 Z + 0.1</button>
+    <button onclick="trZincmoon2()">Translate moon2 Z + 0.1</button>
+    <button onclick="trZincmoon3()">Translate moon3 Z + 0.1</button>
+    <button onclick="trZincmoon4()">Translate moon4 Z + 0.1</button>
+    <button onclick="trZincmoon5()">Translate moon5 Z + 0.1</button>
+    <button onclick="trZincmoon6()">Translate moon6 Z + 0.1</button>
+    <button onclick="trZincmoon7()">Translate moon7 Z + 0.1</button>
+    <button onclick="trZincmoon8()">Translate moon8 Z + 0.1</button>
+    <br>
+
+    <button onclick="trXdec()">Translate X - 0.1</button>
+    <button onclick="trYdec()">Translate Y - 0.1</button>
+    <button onclick="trZdec()">Translate Z - 0.1</button>
+    <br>
+    <button onclick="trXdecmoon1()">Translate moon1 X - 0.1</button>
+    <button onclick="trXdecmoon2()">Translate moon2 X - 0.1</button>
+    <button onclick="trXdecmoon3()">Translate moon3 X - 0.1</button>
+    <button onclick="trXdecmoon4()">Translate moon4 X - 0.1</button>
+    <button onclick="trXdecmoon5()">Translate moon5 X - 0.1</button>
+    <button onclick="trXdecmoon6()">Translate moon6 X - 0.1</button>
+    <button onclick="trXdecmoon7()">Translate moon7 X - 0.1</button>
+    <button onclick="trXdecmoon8()">Translate moon8 X - 0.1</button>
+    <br>
+    <button onclick="trYdecmoon1()">Translate moon1 Y - 0.1</button>
+    <button onclick="trYdecmoon2()">Translate moon2 Y - 0.1</button>
+    <button onclick="trYdecmoon3()">Translate moon3 Y - 0.1</button>
+    <button onclick="trYdecmoon4()">Translate moon4 Y - 0.1</button>
+    <button onclick="trYdecmoon5()">Translate moon5 Y - 0.1</button>
+    <button onclick="trYdecmoon6()">Translate moon6 Y - 0.1</button>
+    <button onclick="trYdecmoon7()">Translate moon7 Y - 0.1</button>
+    <button onclick="trYdecmoon8()">Translate moon8 Y - 0.1</button>
+    <br>
+    <button onclick="trZdecmoon1()">Translate moon1 Z - 0.1</button>
+    <button onclick="trZdecmoon2()">Translate moon2 Z - 0.1</button>
+    <button onclick="trZdecmoon3()">Translate moon3 Z - 0.1</button>
+    <button onclick="trZdecmoon4()">Translate moon4 Z - 0.1</button>
+    <button onclick="trZdecmoon5()">Translate moon5 Z - 0.1</button>
+    <button onclick="trZdecmoon6()">Translate moon6 Z - 0.1</button>
+    <button onclick="trZdecmoon7()">Translate moon7 Z - 0.1</button>
+    <button onclick="trZdecmoon8()">Translate moon8 Z - 0.1</button>
+    <br>
+    <br>
+
+    <button onclick="animRotateALL()">Animation Rotate all</button>
+    <br>
+    <button onclick="animRotate()">Animation Rotate + 0.01</button>
+    <br>
+    <button onclick="animRotatemoon1()">Animation Rotate moon1 + 0.01</button>
+    <button onclick="animRotatemoon2()">Animation Rotate moon2 + 0.01</button>
+    <button onclick="animRotatemoon3()">Animation Rotate moon3 + 0.01</button>
+    <button onclick="animRotatemoon4()">Animation Rotate moon4 + 0.01</button>
+    <button onclick="animRotatemoon5()">Animation Rotate moon5 + 0.01</button>
+    <button onclick="animRotatemoon6()">Animation Rotate moon6 + 0.01</button>
+    <button onclick="animRotatemoon7()">Animation Rotate moon7 + 0.01</button>
+    <button onclick="animRotatemoon8()">Animation Rotate moon8 + 0.01</button>
+
+	<table border=1> 
+	<tr > 
+	<td id="matrix0"> 	<td id="matrix4">  	<td id="matrix8">  	<td id="matrix12"> 
+	<tr> 
+	<td id="matrix1"> 	<td id="matrix5">  	<td id="matrix9">  	<td id="matrix13"> 
+	<tr> 
+	<td id="matrix2"> 	<td id="matrix6">  	<td id="matrix10">  	<td id="matrix14"> 
+	<tr> 
+	<td id="matrix3"> 	<td id="matrix7">  	<td id="matrix11">  	<td id="matrix15"> 
+	</table>
+	<p id="webTrX"> Trans X </p>
+    <p id="webTrY"> Trans Y </p>
+    <p id="webTrZ"> Trans Z </p>
+</body>
+
+</html>
